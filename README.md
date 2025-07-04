@@ -17,5 +17,5 @@ dnf install python3-pip -y && pip3 install requests
 ```
 🛈 **Ubuntu / Debian:**
 ```bash
-apt update && apt install python3-pip -y && apt install python3-requests
+apt update && apt install -y python3-pip python3-requests
 ```
