@@ -10,7 +10,12 @@
 
 ## 💿 Installation Terraform on LINUX
 To run the Python script, install pip and the requests library using your distribution's package manager. These are needed to handle HTTP requests in the script.
-🛈 Rocky Linux / RHEL / CentOS:
+
+🛈 **Rocky Linux / RHEL / CentOS:**
+```bash
 dnf install python3-pip -y && pip3 install requests
-🛈 Ubuntu / Debian:
+```
+🛈 **Ubuntu / Debian:**
+```bash
 apt update && apt install python3-pip -y && pip3 install requests
+```
