@@ -19,3 +19,17 @@ dnf install python3-pip -y && pip3 install requests
 ```bash
 apt update && apt install -y python3-pip python3-requests
 ```
+🏎️💨 **Install Terraform Automatically**
+
+This repository includes a Python script that installs the latest available version of Terraform from the official HashiCorp releases.
+
+1️⃣ Make the script executable:
+```bash
+chmod +x install_terraform.py
+```
+2️⃣ Run it as root:
+```bash
+./install_terraform.py
+```
+
+☝️ Note: You must run this script as root, because it installs the Terraform binary into /usr/local/bin
