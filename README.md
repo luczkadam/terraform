@@ -23,11 +23,15 @@ apt update && apt install -y python3-pip python3-requests
 
 This repository includes a Python script that installs the latest available AMD64 version of Terraform from the official HashiCorp releases.
 
-1️⃣ Make the script executable:
+1️⃣ Download the script using the following command:
+```bash
+wget https://github.com/luczkadam/terraform/blob/main/install_terraform.py
+```
+2️⃣ Make the script executable:
 ```bash
 chmod +x install_terraform.py
 ```
-2️⃣ Run it as root:
+3️⃣ Run it as root:
 ```bash
 ./install_terraform.py
 ```
