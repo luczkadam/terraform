@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-import os           #used for: checking the user ID
-import sys          #used for: exiting the program with sys.exit()
-import shutil       #used for: copying/moving files and checking executable locations
-import subprocess   #used for: installing missing packages
-import requests     #used for: send an HTTP GET request to download the Terraform ZIP file
-import time         #used for: adding delays
-import zipfile      #used for: extracting .zip files
+import os          #used for: checking the user ID
+import sys         #used for: exiting the program with sys.exit()
+import shutil      #used for: copying/moving files and checking executable locations
+import subprocess  #used for: installing missing packages
+import requests    #used for: send an HTTP GET request to download the Terraform ZIP file
+import time        #used for: adding delays
+import zipfile     #used for: extracting .zip files
 
 def check_root():
     if os.geteuid() != 0:
