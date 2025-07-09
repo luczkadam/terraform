@@ -25,7 +25,7 @@ This repository includes a Python script that installs the latest available AMD6
 
 1️⃣ Download the script using the following command:
 ```bash
-wget https://github.com/luczkadam/terraform/blob/main/install_terraform.py
+wget https://raw.githubusercontent.com/luczkadam/terraform/main/install_terraform.py
 ```
 2️⃣ Make the script executable:
 ```bash
