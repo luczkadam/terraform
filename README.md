@@ -21,7 +21,7 @@ apt update && apt install -y python3-pip python3-requests
 ```
 🏎️💨 **Install Terraform Automatically**
 
-This repository includes a Python script that installs the latest available version of Terraform from the official HashiCorp releases.
+This repository includes a Python script that installs the latest available AMD64 version of Terraform from the official HashiCorp releases.
 
 1️⃣ Make the script executable:
 ```bash
