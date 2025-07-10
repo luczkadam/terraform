@@ -37,3 +37,19 @@ chmod +x install_terraform.py
 ```
 
 ☝️ Note: You must run this script as root, because it installs the Terraform binary into /usr/local/bin
+
+
+
+## 👨🏻‍💻 Proxmox Terraform User Setup Script
+This script automates the configuration of a Proxmox VE server for Terraform integration. It creates a dedicated user, role, and group with configured permissions, enabling secure API access for infrastructure automation.
+
+🛈 **When executed, the script performs the following actions:**
+1. Create a user named terraform
+2. Create a role named terraform with necessary permissions
+3. Create a group named terraform
+4. Assign appropriate permissions to the terraform group
+5. Add the terraform user to the terraform group
+6. Generate an API token for the terraform user
+   
+☝️ Note: The token secret is displayed only once. Make sure to copy it and store it in a secure place, such as a password manager, as it cannot be retrieved again.
+
