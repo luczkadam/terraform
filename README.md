@@ -74,3 +74,22 @@ python3 terraform.py
 Once the script completes, it will output a newly generated API token.
 ☝️ Note: The token secret is displayed only once.
 ```
+
+
+## ⚙️ Terraform Initialization and Usage
+After installing Terraform and preparing required users and dependencies (see previous sections), this step covers how to initialize and use a Terraform configuration to manage infrastructure on your Proxmox server.
+```
+1️⃣ In the TERRAFORM/ directory, create a configuration file: main.tf
+```
+2️⃣ Initialize the project:
+```bash
+terraform init
+```
+3️⃣ Review the execution plan:
+```bash
+terraform plan
+```
+4️⃣ Apply the configuration:
+```bash
+terraform apply
+```
