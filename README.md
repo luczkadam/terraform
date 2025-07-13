@@ -53,3 +53,24 @@ This script automates the configuration of a Proxmox VE server for Terraform int
    
 ☝️ Note: The token secret is displayed only once. Make sure to copy it and store it in a secure place, such as a password manager, as it cannot be retrieved again.
 
+![terraform2_fc8e583f-e752-4ad1-ab22-0ca8619ee507](https://github.com/user-attachments/assets/2b6ba1a6-dcc6-42bd-ae40-3d30319b1edc)
+
+1️⃣ Open a shell on your Proxmox server
+
+Run these commands directly on the Proxmox node, either via SSH or the built-in web shell in the Proxmox GUI.
+```bash
+wget https://raw.githubusercontent.com/luczkadam/terraform/main/user_terraform.py
+```
+2️⃣ Make the script executable:
+```bash
+chmod +x user_terraform.py
+```
+3️⃣ Run it as root:
+```bash
+./user_terraform.py
+```
+4️⃣ Save the API token:
+```
+Once the script completes, it will output a newly generated API token.
+☝️ Note: The token secret is displayed only once.
+```
