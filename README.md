@@ -67,7 +67,7 @@ chmod +x user_terraform.py
 ```
 3️⃣ Run it as root:
 ```bash
-./user_terraform.py
+python3 terraform.py
 ```
 4️⃣ Save the API token:
 ```
